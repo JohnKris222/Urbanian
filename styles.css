@@ -1,0 +1,38 @@
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  background-color: rgb(109, 79, 79);
+}
+
+.header,
+.hero-section,
+.footer {
+  background-color: rgb(66, 3, 3);
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.signup-btn {
+  background-color: #f9faf8;
+}
+
+.hero-section img {
+  width: 400px;
+  height: auto;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
