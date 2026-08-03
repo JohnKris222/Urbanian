@@ -22,12 +22,13 @@ body {
   font-weight: 900;
   color: #f9faf8;
   width: 400px;
+  margin-bottom: 10px;
 }
 
 .subtext {
   font-size: 18px;
   color: #e5e7eb;
-  width: 400px;
+  width: 500px;
 }
 
 .signup-btn {
@@ -35,11 +36,6 @@ body {
   border-radius: 5px;
   font-size: 15px;
   padding: 5px;
-}
-
-.hero-section img {
-  width: 300px;
-  height: auto;
 }
 
 .quote {
@@ -62,6 +58,7 @@ a {
   align-items: flex-start;
   justify-content: space-between;
   align-items: center;
+  padding: 5px 10px;
 }
 
 ul {
@@ -72,16 +69,22 @@ ul {
 }
 
 .hero-section {
+  width: 100%;
+  height: 40%;
   display: flex;
-  flex-direction: row;
-  padding: 50px;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: space-around;
+  padding: 100px 0;
 }
 
-.container {
+.subtext {
+  text-align: start;
+}
+
+.hero-section img {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  gap: 32px;
+  flex-shrink: 0;
+  width: 500px;
+  height: auto;
 }
