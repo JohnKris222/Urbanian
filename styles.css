@@ -21,14 +21,16 @@ body {
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   margin-bottom: 10px;
 }
 
 .subtext {
   font-size: 18px;
   color: #e5e7eb;
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
 }
 
 .discover-btn {
@@ -74,6 +76,7 @@ ul {
   align-items: center;
   justify-content: space-around;
   padding: 100px 0;
+  box-sizing: border-box; 
 }
 
 .subtext {
@@ -83,14 +86,20 @@ ul {
 .hero-section img {
   display: flex;
   flex-shrink: 0;
-  width: 500px;
-  height: auto;
+  width: 100%;
+  max-width: 500px;
+  height: auto;   
+  flex-wrap: wrap;
+  padding: 50px 20px;
+   box-sizing: border-box;
+  
 }
 
 .main-title {
   font-size: 36px;
-  color: #1f2937;
+  color: #f9faf8;
   font-weight: 900;
+  text-align: center;
 }
 
 .card img {
@@ -117,6 +126,7 @@ ul {
   justify-content: center;
   margin: 30px;
   gap: 16px;
+  flex-wrap: wrap;
 }
 
 .box {
@@ -126,12 +136,12 @@ ul {
 
 .quote {
   display: flex;
-  height: 350px;
+  min-height: 250px;
   background-color: rgb(206, 182, 182);
   font-size: 36px;
   font-style: italic;
   font-weight: 300;
-  padding: 20px 10px;
+  padding: 30px 20px;
 }
 
 .author-name {
@@ -152,6 +162,7 @@ ul {
   margin: 50px auto;
   justify-content: space-around;
   padding: 20px 30px;
+   flex-wrap: wrap;   
 }
 
 .signup-text {
