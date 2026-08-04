@@ -88,3 +88,14 @@ ul {
   width: 500px;
   height: auto;
 }
+
+.main-title {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.card img {
+  width: 100px;
+  height: auto;
+}
