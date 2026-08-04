@@ -142,7 +142,6 @@ ul {
 .news {
   display: flex;
   background-color: rgb(128, 42, 8);
-  border: 2px rgb(128, 42, 8) solid;
   border-radius: 10px;
   width: 75%;
   max-width: 800px;
@@ -175,7 +174,7 @@ ul {
 }
 
 .n-button {
-  width: 70px;
+  width: auto;
   height: 40px;
   background-color: rgb(206, 182, 182);
   border: rgb(206, 182, 182) solid;
